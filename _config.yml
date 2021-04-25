@@ -4,8 +4,8 @@ title: Noah Cristino
 description: subtitle | affiliations | motto
 
 baseurl: / #name of GitHub repository
-url: #custom url to be used instead of GitHub repository
-email: #
+url: https://noahcristino.github.io #custom url to be used instead of GitHub repository
+email: cristinon@protonmail.com #
 
 
 highlighter: rouge
@@ -18,9 +18,9 @@ paginate_path: /blog/page:num/
 
 # Social media links in footer
 facebook: "#"
-twitter: "#"
+twitter: "https://twitter.com/noahcristino"
 linkedin: "#"
-github: "#"
+github: "https://github.com/NoahCristino"
 researchgate: "#"
 orcid: "#"
 
