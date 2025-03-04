@@ -1,0 +1,62 @@
+{
+  "prefetchRate": 5,
+  "maxThreads": null,
+  "disableRoutePrefixing": false,
+  "outputFileRate": 100,
+  "extensions": [
+    ".js",
+    ".jsx"
+  ],
+  "minLoadTime": 200,
+  "disablePreload": false,
+  "disableRuntime": false,
+  "preloadPollInterval": 300,
+  "productionSourceMaps": false,
+  "silent": false,
+  "entry": "index.js",
+  "plugins": [
+    [
+      "/home/noah/noahcristino.github.io/noahcristino.github.io/node_modules/react-static-plugin-source-filesystem/node.api.js",
+      {
+        "location": "/home/noah/noahcristino.github.io/noahcristino.github.io/src/pages"
+      }
+    ],
+    "/home/noah/noahcristino.github.io/noahcristino.github.io/node_modules/react-static-plugin-reach-router/browser.api.js",
+    "/home/noah/noahcristino.github.io/noahcristino.github.io/node_modules/react-static-plugin-sitemap/dist/node.api.js",
+    "/home/noah/noahcristino.github.io/noahcristino.github.io"
+  ],
+  "paths": {
+    "ROOT": "/home/noah/noahcristino.github.io/noahcristino.github.io",
+    "SRC": "/home/noah/noahcristino.github.io/noahcristino.github.io/src",
+    "DIST": "/home/noah/noahcristino.github.io/noahcristino.github.io/dist",
+    "ASSETS": "/home/noah/noahcristino.github.io/noahcristino.github.io/dist",
+    "PLUGINS": "/home/noah/noahcristino.github.io/noahcristino.github.io/plugins",
+    "TEMP": "/home/noah/noahcristino.github.io/noahcristino.github.io/tmp",
+    "ARTIFACTS": "/home/noah/noahcristino.github.io/noahcristino.github.io/artifacts",
+    "PUBLIC": "/home/noah/noahcristino.github.io/noahcristino.github.io/public",
+    "NODE_MODULES": "/home/noah/noahcristino.github.io/noahcristino.github.io/node_modules",
+    "EXCLUDE_MODULES": "/home/noah/noahcristino.github.io/noahcristino.github.io/node_modules",
+    "PACKAGE": "/home/noah/noahcristino.github.io/noahcristino.github.io/package.json",
+    "HTML_TEMPLATE": "/home/noah/noahcristino.github.io/noahcristino.github.io/dist/index.html",
+    "STATIC_DATA": "/home/noah/noahcristino.github.io/noahcristino.github.io/dist/staticData"
+  },
+  "siteRoot": "/",
+  "basePath": "",
+  "publicPath": "/",
+  "assetsPath": "",
+  "extractCssChunks": false,
+  "inlineCss": false,
+  "babelExcludes": [],
+  "devServer": {
+    "host": "localhost",
+    "port": 3000
+  },
+  "terser": {
+    "terserOptions": {
+      "mangle": {},
+      "parse": {},
+      "compress": {},
+      "output": {}
+    }
+  }
+}
