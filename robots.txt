@@ -1,4 +1,1 @@
 User-agent: *
-Disallow:
-
-Sitemap: https://noahcristino.github.io/sitemap.xml
